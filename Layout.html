@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Layout </title>
+<style>
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background: black;	
+}
+li{
+float: left;
+}
+li a{
+display: block;
+color: white;
+font-family: verdana;
+font-weight:800;
+font-size: 20px; 
+text-align: center;
+padding: 20px;
+text-decoration: none;
+}
+li a:hover:not(.active) {
+background: green;
+}
+.active {
+background: green;
+}
+img{
+height: 200px;
+width: 200px;
+margin-top: 100px;
+margin-bottom: 60px;
+border-radius: 50%;
+border: 3px solid purple;
+}
+button{
+height: 60px;
+width: 200px;
+font-family: verdana;
+font-size: 20px;
+background: pink;
+border: none;
+}
+body{
+background: url("Background.jpg");
+background-size: cover;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li style="float:right"><a href="Sign Up Form.html">Login/Sign Up</a></li>
+</ul>
+<center><img src="Pic.jpg"></center>
+<center>
+<a href="Sign Up Form.html"><button>Sign Up Form</button></a> &nbsp;&nbsp; 
+<a href="Calculator.html"><button>Calculator</button></a>
+</center>
+</body>
+</html>
